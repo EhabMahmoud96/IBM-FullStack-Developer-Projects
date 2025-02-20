@@ -16,8 +16,14 @@ function increaseCount() {
 //create check count value 
 function checCountValue() {
     if (count === 10) {
-        alert("Your Instagram post gained 10 followers! Congratulations!");
+       setTimeout( () => {alert("Your Instagram post gained 10 followers! Congratulations!");},0);
     } else if (count === 20) {
-        alert("Your Instagram post gained 20 followers! keep it up!");
+       setTimeout( () => {alert("Your Instagram post gained 20 followers! keep it up!");},0);
     }
     }
+
+//(Bonus) Createing a function to reset the followers count
+function resetCount() {
+    document.getElementById("countDisplay").innerText = 0;
+    setTimeout( () => {alert("Followers count  has been Reset");}, 0);
+}
