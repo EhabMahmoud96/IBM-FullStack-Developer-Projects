@@ -10,6 +10,9 @@ function startTest() {
     //Reset results and Timer
     document.getElementById('output').innerHTML = "";
     startTime = new Date().getTime();
+    //updating the textara to be writable only when start button is clicked
+    document.getElementById('userInput').readOnly = false;
+    document.getElementById('userInput').focus();
 
     //Changing button text and functionality
     var button = document.getElementById('btn');
@@ -19,6 +22,8 @@ function startTest() {
 
 //End test function
 function endTest() {
+    document.getElementById('userInput').readOnly = true;
+    document.getElementById('userInput').blur();
     endTime = new Date().getTime();
 
     //Disapling the user input
