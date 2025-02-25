@@ -46,7 +46,7 @@ if (timeElapsed !== 0 && !isNaN(typedWords)) {
 
 //Display the results 
 var outputDiv = document.getElementById('output');
-outputDiv.innerHTML = "<h2>Typing Test Results:</h2>" +
+outputDiv.innerHTML = "<h2>Typing Test Results:</h2>" +"<p>Total length: " +userTypedText.length +" Letters</p>" +
 "<p>Words Typed: " + typedWords + "</p>" +
 "<p>Time Elapsed: " + timeElapsed.toFixed(2) + "seconds</p>" +
 "<p>Words PEr Minute (WPM): " + wpm + "</p>";
