@@ -1,0 +1,54 @@
+{
+    "Smartphones": [
+        {
+            "Company": "Samsung",
+            "Name": "S25 Ultra",
+            "Screen": "6.86\"",
+            "Processor": "Snapdragon 8 Gen Elite",
+            "Storage": "256Gb",
+            "BatterySize": "5000 mAh",
+            "OperatingSystem": "Android",
+            "Price": "1199$"
+        },
+        {
+            "Company": "Apple",
+            "Name": "iPhone 16 Pro Max",
+            "Screen": "6.9\"",
+            "Processor": "A18 Pro",
+            "Storage": "256Gb",
+            "BatterySize": "~4700 mAh",
+            "OperatingSystem": "iOS",
+            "Price": "1199$"
+        },
+        {
+            "Company": "Honor",
+            "Name": "Magic 7 Pro",
+            "Screen": "6.8\"",
+            "Processor": "Snapdragon 8 Gen Elite",
+            "Storage": "512Gb",
+            "OperatingSystem": "Android",
+            "BatterySize": "5850 mAh",
+            "Price": "999$"
+        },
+        {
+            "Company": "Xiaomi",
+            "Name": "15 Ultra",
+            "Screen": "6.73\"",
+            "Processor": "Snapdragon 8 Gen Elite",
+            "Storage": "512Gb",
+            "OperatingSystem": "Android",
+            "BatterySize": "6000 mAh",
+            "Price": "1499$"
+        },
+        {
+            "Company": "Realme",
+            "Name": "GT 7 Pro",
+            "Screen": "6.78\"",
+            "Processor": "Snapdragon 8 Gen Elite",
+            "Storage": "512Gb",
+            "OperatingSystem": "Android",
+            "BatterySize": "6500 mAh",
+            "Price": "899$"
+        }
+    ]
+}
